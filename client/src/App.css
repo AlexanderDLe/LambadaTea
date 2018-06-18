@@ -2,11 +2,9 @@ body {
   /* background-color: grey; */
 }
 
+/* LANDING */
 .Landing {
-  height: 100vh;
   width: 100%;
-  background: url('./img/LambadaLanding.jpg') no-repeat center;
-  background-size: cover;
   position: relative;
 }
 .center {
@@ -15,14 +13,41 @@ body {
   justify-content: center;
   text-align: center;
 }
-
+/* CAROUSEL */
+.carousel-item {
+  height: 100vh;
+}
+.carousel-control {
+  font-size: 300px;
+  width: 100px;
+}
+.carousel-image-1 {
+  background: url('img/LambadaLanding.jpg') no-repeat center;
+  background-size: cover;
+}
+.carousel-image-2 {
+  background: url('img/FriedChicken.jpg') no-repeat center;
+  background-size: cover;
+}
+.carousel-image-3 {
+  background: url('img/Pho.jpg') no-repeat center;
+  background-size: cover;
+}
+.carousel-image-4 {
+  background: url('img/Eggrolls.jpg') no-repeat center;
+  background-size: cover;
+}
 /* NAVBAR */
 .navbar {
   box-shadow: 0px -3px 10px black;
 }
 .nav-item {
   padding-right: 15px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+}
+.navbarLogo {
+  height: auto;
+  width: 140px;
 }
 
 /* LEARN MORE BUTTON */
@@ -33,6 +58,7 @@ body {
   bottom: 0;
   transform: translate(-50%, -50%);
   transition: all 0.15s ease-in-out;
+  cursor: pointer;
 }
 .largeArrow:hover {
   font-size: 6.5rem;
@@ -53,5 +79,48 @@ body {
 @media (min-width: 925px) {
   .logoLanding {
     font-size: 12rem;
+  }
+}
+
+/* ABOUT */
+.aboutLogo {
+  height: auto;
+  width: 320px;
+}
+.About {
+  min-height: 50vh;
+}
+.Title {
+  font-size: 2.8rem;
+  font-family: Satisfy;
+}
+.fa-leaf,
+.fa-utensils {
+  font-size: 60px;
+  color: #4b7c07;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.aboutSection p {
+  padding: 5px 25px;
+}
+@media (max-width: 767px) {
+  .fa-utensils {
+    margin-top: 50px;
+  }
+}
+/* GALLERY */
+.gallery-item {
+  width: 100%;
+  object-fit: contain;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
   }
 }

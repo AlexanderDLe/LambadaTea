@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../img/LambadaNavLogo.png';
 
 export default () => {
   return (
     <nav className="navbar fixed-top navbar-expand-sm navbar-light bg-light mb-3">
       <div className="container">
         <Link to="/" className="navbar-brand logo logoNav" href="#">
-          Lambada
+          <img className="navbarLogo" src={logo} alt="" />
         </Link>
         <button
           className="navbar-toggler"
