@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../img/LambadaNavLogo.png';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 export default () => {
   return (
@@ -19,24 +20,24 @@ export default () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link to="/" className="nav-link" href="#">
+              <AnchorLink className="nav-link" href="#home">
                 Home
-              </Link>
+              </AnchorLink>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-link" href="#">
+              <AnchorLink offset="90" className="nav-link" href="#about">
                 About
-              </Link>
+              </AnchorLink>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-link" href="#">
-                Services
-              </Link>
+              <AnchorLink offset="90" className="nav-link" href="#gallery">
+                Gallery
+              </AnchorLink>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-link" href="#">
+              <AnchorLink offset="90" className="nav-link" href="#contact">
                 Contact
-              </Link>
+              </AnchorLink>
             </li>
           </ul>
         </div>

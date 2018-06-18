@@ -1,7 +1,6 @@
-body {
-  /* background-color: grey; */
+p {
+  margin-bottom: 0;
 }
-
 /* LANDING */
 .Landing {
   width: 100%;
@@ -49,7 +48,9 @@ body {
   height: auto;
   width: 140px;
 }
-
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.6);
+}
 /* LEARN MORE BUTTON */
 .largeArrow {
   font-size: 6rem;
@@ -110,10 +111,15 @@ body {
   }
 }
 /* GALLERY */
-.gallery-item {
-  width: 100%;
-  object-fit: contain;
+
+/* FOOTER */
+footer a {
+  color: black;
 }
+.storeHours p {
+  padding: 5px 0px;
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;

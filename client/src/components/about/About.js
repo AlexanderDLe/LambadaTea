@@ -3,7 +3,7 @@ import logo from '../../img/LambadaLogo.png';
 
 export default () => {
   return (
-    <div className="About pt-3 pb-5 center">
+    <div id="about" className="About pt-3 pb-5 center">
       <div className="container">
         <div className="row">
           <div className="col-md-12">

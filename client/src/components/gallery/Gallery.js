@@ -14,8 +14,30 @@ import Image12 from '../../img/Gallery/P12.jpg';
 import Image13 from '../../img/Gallery/P13.jpg';
 import Image14 from '../../img/Gallery/P14.jpg';
 import Image15 from '../../img/Gallery/P15.jpg';
+import Image16 from '../../img/Gallery/P16.jpg';
+import Image17 from '../../img/Gallery/P17.jpg';
+import Image18 from '../../img/Gallery/P18.jpg';
+import Image19 from '../../img/Gallery/P19.jpg';
+import Image20 from '../../img/Gallery/P20.jpg';
+import Image21 from '../../img/Gallery/P21.jpg';
 
 class Gallery extends Component {
+  renderGalleryItem(img) {
+    return (
+      <div className="col-md-4">
+        <a
+          href={img}
+          data-toggle="lightbox"
+          data-gallery="img-gallery"
+          data-height="560"
+          data-width="560"
+        >
+          <img className="img-fluid" src={img} alt="" />
+        </a>
+      </div>
+    );
+  }
+
   render() {
     return (
       <section id="gallery" className="py-5">
@@ -25,179 +47,39 @@ class Gallery extends Component {
           <br />
           <br />
           <div className="row mb-4">
-            <div className="col-md-4">
-              <a
-                href={Image2}
-                data-toggle="lightbox"
-                data-gallery="img-gallery"
-                data-height="560"
-                data-width="560"
-              >
-                <img className="img-fluid" src={Image2} alt="" />
-              </a>
-            </div>
-            <div className="col-md-4">
-              <a
-                href={Image1}
-                data-toggle="lightbox"
-                data-gallery="img-gallery"
-                data-height="560"
-                data-width="560"
-              >
-                <img className="img-fluid" src={Image1} alt="" />
-              </a>
-            </div>
-            <div className="col-md-4">
-              <a
-                href={Image3}
-                data-toggle="lightbox"
-                data-gallery="img-gallery"
-                data-height="560"
-                data-width="560"
-              >
-                <img className="img-fluid" src={Image3} alt="" />
-              </a>
-            </div>
+            {this.renderGalleryItem(Image2)}
+            {this.renderGalleryItem(Image1)}
+            {this.renderGalleryItem(Image3)}
           </div>
           <div className="row mb-4">
-            <div className="col-md-4">
-              <a
-                href={Image4}
-                data-toggle="lightbox"
-                data-gallery="img-gallery"
-                data-height="560"
-                data-width="560"
-              >
-                <img className="img-fluid" src={Image4} alt="" />
-              </a>
-            </div>
-            <div className="col-md-4">
-              <a
-                href={Image5}
-                data-toggle="lightbox"
-                data-gallery="img-gallery"
-                data-height="560"
-                data-width="560"
-              >
-                <img className="img-fluid" src={Image5} alt="" />
-              </a>
-            </div>
-            <div className="col-md-4">
-              <a
-                href={Image6}
-                data-toggle="lightbox"
-                data-gallery="img-gallery"
-                data-height="560"
-                data-width="560"
-              >
-                <img className="img-fluid" src={Image6} alt="" />
-              </a>
-            </div>
+            {this.renderGalleryItem(Image4)}
+            {this.renderGalleryItem(Image5)}
+            {this.renderGalleryItem(Image6)}
           </div>
           <div className="row mb-4">
-            <div className="col-md-4">
-              <a
-                href={Image7}
-                data-toggle="lightbox"
-                data-gallery="img-gallery"
-                data-height="560"
-                data-width="560"
-              >
-                <img className="img-fluid" src={Image7} alt="" />
-              </a>
-            </div>
-            <div className="col-md-4">
-              <a
-                href={Image8}
-                data-toggle="lightbox"
-                data-gallery="img-gallery"
-                data-height="560"
-                data-width="560"
-              >
-                <img className="img-fluid" src={Image8} alt="" />
-              </a>
-            </div>
-            <div className="col-md-4">
-              <a
-                href={Image9}
-                data-toggle="lightbox"
-                data-gallery="img-gallery"
-                data-height="560"
-                data-width="560"
-              >
-                <img className="img-fluid" src={Image9} alt="" />
-              </a>
-            </div>
+            {this.renderGalleryItem(Image7)}
+            {this.renderGalleryItem(Image8)}
+            {this.renderGalleryItem(Image9)}
           </div>
           <div className="row mb-4">
-            <div className="col-md-4">
-              <a
-                href={Image10}
-                data-toggle="lightbox"
-                data-gallery="img-gallery"
-                data-height="560"
-                data-width="560"
-              >
-                <img className="img-fluid" src={Image10} alt="" />
-              </a>
-            </div>
-            <div className="col-md-4">
-              <a
-                href={Image11}
-                data-toggle="lightbox"
-                data-gallery="img-gallery"
-                data-height="560"
-                data-width="560"
-              >
-                <img className="img-fluid" src={Image11} alt="" />
-              </a>
-            </div>
-            <div className="col-md-4">
-              <a
-                href={Image12}
-                data-toggle="lightbox"
-                data-gallery="img-gallery"
-                data-height="560"
-                data-width="560"
-              >
-                <img className="img-fluid" src={Image12} alt="" />
-              </a>
-            </div>
+            {this.renderGalleryItem(Image10)}
+            {this.renderGalleryItem(Image11)}
+            {this.renderGalleryItem(Image12)}
           </div>
           <div className="row mb-4">
-            <div className="col-md-4">
-              <a
-                href={Image13}
-                data-toggle="lightbox"
-                data-gallery="img-gallery"
-                data-height="560"
-                data-width="560"
-              >
-                <img className="img-fluid" src={Image13} alt="" />
-              </a>
-            </div>
-            <div className="col-md-4">
-              <a
-                href={Image14}
-                data-toggle="lightbox"
-                data-gallery="img-gallery"
-                data-height="560"
-                data-width="560"
-              >
-                <img className="img-fluid" src={Image14} alt="" />
-              </a>
-            </div>
-            <div className="col-md-4">
-              <a
-                href={Image15}
-                data-toggle="lightbox"
-                data-gallery="img-gallery"
-                data-height="560"
-                data-width="560"
-              >
-                <img className="img-fluid" src={Image15} alt="" />
-              </a>
-            </div>
+            {this.renderGalleryItem(Image13)}
+            {this.renderGalleryItem(Image14)}
+            {this.renderGalleryItem(Image15)}
+          </div>
+          <div className="row mb-4">
+            {this.renderGalleryItem(Image16)}
+            {this.renderGalleryItem(Image17)}
+            {this.renderGalleryItem(Image18)}
+          </div>
+          <div className="row mb-4">
+            {this.renderGalleryItem(Image19)}
+            {this.renderGalleryItem(Image20)}
+            {this.renderGalleryItem(Image21)}
           </div>
         </div>
       </section>

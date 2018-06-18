@@ -2,7 +2,7 @@ import React from 'react';
 
 export default () => {
   return (
-    <div id="showcase">
+    <div id="home">
       <div
         id="myCarousel"
         className="Landing carousel slide center"
