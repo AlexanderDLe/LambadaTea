@@ -5,7 +5,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 export default () => {
   return (
-    <nav className="navbar fixed-top navbar-expand-sm navbar-light bg-light mb-3">
+    <nav className="navbar fixed-top navbar-expand-sm navbar-light bg-light mb-1">
       <div className="container">
         <Link to="/" className="navbar-brand logo logoNav" href="#">
           <img className="navbarLogo" src={logo} alt="" />

@@ -1,8 +1,9 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 export default () => {
   return (
-    <footer id="contact" className="Footer">
+    <footer className="Footer">
       <hr />
       <div className="container">
         <div className="row">
@@ -15,24 +16,24 @@ export default () => {
           <div className="col-md-6">
             <ul className="navbar-nav ml-auto text-center mt-4">
               <li className="nav-item">
-                <a href="" className="nav-link">
+                <AnchorLink href="#home" className="nav-link">
                   Home
-                </a>
+                </AnchorLink>
               </li>
               <li className="nav-item">
-                <a href="" className="nav-link">
+                <AnchorLink offset="90" href="#about" className="nav-link">
                   About
-                </a>
+                </AnchorLink>
               </li>
               <li className="nav-item">
-                <a href="" className="nav-link">
+                <AnchorLink offset="90" href="#gallery" className="nav-link">
                   Gallery
-                </a>
+                </AnchorLink>
               </li>
               <li className="nav-item">
-                <a href="" className="nav-link">
+                <AnchorLink offset="90" href="#contact" className="nav-link">
                   Contact
-                </a>
+                </AnchorLink>
               </li>
             </ul>
           </div>

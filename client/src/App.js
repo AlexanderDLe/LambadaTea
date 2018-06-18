@@ -8,6 +8,7 @@ import Landing from './components/layout/Landing';
 import About from './components/about/About';
 import Footer from './components/layout/Footer';
 import Gallery from './components/gallery/Gallery';
+import Contact from './components/contact/Contact';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <Landing />
           <About />
           <Gallery />
+          <Contact />
           <Footer />
         </div>
       </Router>
