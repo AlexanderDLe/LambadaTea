@@ -24,16 +24,18 @@ import Image21 from '../../img/Gallery/P21.jpg';
 class Gallery extends Component {
   renderGalleryItem(img) {
     return (
-      <div className="col-md-4">
-        <a
-          href={img}
-          data-toggle="lightbox"
-          data-gallery="img-gallery"
-          data-height="560"
-          data-width="560"
-        >
-          <img className="img-fluid" src={img} alt="" />
-        </a>
+      <div className="col-md-4 box">
+        <div className="imgBox">
+          <a
+            href={img}
+            data-toggle="lightbox"
+            data-gallery="img-gallery"
+            data-height="560"
+            data-width="560"
+          >
+            <img className="img-fluid" src={img} alt="" />
+          </a>
+        </div>
       </div>
     );
   }

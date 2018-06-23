@@ -95,10 +95,20 @@ p {
   font-size: 2.8rem;
   font-family: Satisfy;
 }
+/* .fa-leaf,
+.fa-utensils,
+.fa-pencil-alt,
+.fa-envelope,
+.fa-user {
+  color: #4b7c07;
+} */
+.fa-leaf,
+.fa-utensils {
+  color: #4b7c07;
+}
 .fa-leaf,
 .fa-utensils {
   font-size: 60px;
-  color: #4b7c07;
   margin-bottom: 40px;
   margin-top: 40px;
 }
@@ -111,6 +121,17 @@ p {
   }
 }
 /* GALLERY */
+
+.imgBox {
+  position: relative;
+  overflow: hidden;
+}
+.imgBox img {
+  transition: transform 1s ease-in-out;
+}
+.imgBox:hover img {
+  transform: scale(1.2);
+}
 
 /* FOOTER */
 footer a {
