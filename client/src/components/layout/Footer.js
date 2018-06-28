@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default () => {
   return (
@@ -6,17 +6,17 @@ export default () => {
       <hr />
       <div className="container">
         <div className="row">
-          <div className="storeHours col-md-6 text-center">
-            <h3 className="py-3">Store Hours</h3>
+          <div className="storeHours col-md-6">
+            <h4 className="py-3">Store Hours</h4>
             <p className="lead">Open Daily:</p>
             <p className="lead">Mon - Sat: 8am - 11pm</p>
             <p className="lead">Sunday: 8am - 10pm</p>
           </div>
-          <div className="col-md-6 text-center">
-            <h3 className="py-3">Address</h3>
+          <div className="col-md-6">
+            <h4 className="py-3">Address</h4>
             <p className="lead">10563 Bolsa Ave.</p>
             <p className="lead">Garden Grove, CA 92843</p>
-            <p className="lead">Garden Grove, CA 92843</p>
+            <p className="lead">United States</p>
           </div>
         </div>
       </div>

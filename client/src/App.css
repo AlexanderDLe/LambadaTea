@@ -132,20 +132,33 @@ p {
 .imgBox:hover img {
   transform: scale(1.2);
 }
-
+.imgName {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.55);
+  font-size: 1.2rem;
+  padding: 8px;
+  transform: translateY(100px);
+  transition: transform 1s ease-in-out;
+}
+.imgBox:hover .imgName {
+  transform: translateY(0px);
+  transition: transform 1s ease-in-out;
+}
 /* FOOTER */
-footer a {
-  color: black;
-}
-.storeHours p {
-  padding: 5px 0px;
+footer {
+  color: rgba(0, 0, 0, 0.8);
 }
 
-/* @media (max-width: 767px) {
-  .container {
-    max-width: 720px;
-  }
-} */
+/* CONTACT */
+.contactLogo {
+  height: auto;
+  max-width: 300px;
+  margin-top: 50px;
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;

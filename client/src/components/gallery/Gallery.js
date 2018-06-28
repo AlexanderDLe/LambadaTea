@@ -22,7 +22,7 @@ import Image20 from '../../img/Gallery/P20_result.webp';
 import Image21 from '../../img/Gallery/P21_result.webp';
 
 class Gallery extends Component {
-  renderGalleryItem(img) {
+  renderGalleryItem(img, name) {
     return (
       <div className="col-md-4 box">
         <div className="imgBox">
@@ -33,8 +33,9 @@ class Gallery extends Component {
             data-height="560"
             data-width="560"
           >
-            <img className="img-fluid" src={img} alt="" />
+            <img className="img-fluid" src={img} alt={name} />
           </a>
+          <p className="imgName text-center">{name}</p>
         </div>
       </div>
     );
@@ -49,39 +50,39 @@ class Gallery extends Component {
           <br />
           <br />
           <div className="row mb-4">
-            {this.renderGalleryItem(Image2)}
-            {this.renderGalleryItem(Image1)}
-            {this.renderGalleryItem(Image3)}
+            {this.renderGalleryItem(Image2, 'Enjoy our refreshing drinks!')}
+            {this.renderGalleryItem(Image1, 'Welcome to Lambada!')}
+            {this.renderGalleryItem(Image3, 'Item')}
           </div>
           <div className="row mb-4">
-            {this.renderGalleryItem(Image4)}
-            {this.renderGalleryItem(Image5)}
-            {this.renderGalleryItem(Image6)}
+            {this.renderGalleryItem(Image4, 'Item')}
+            {this.renderGalleryItem(Image5, 'Item')}
+            {this.renderGalleryItem(Image6, 'Item')}
           </div>
           <div className="row mb-4">
-            {this.renderGalleryItem(Image7)}
-            {this.renderGalleryItem(Image8)}
-            {this.renderGalleryItem(Image9)}
+            {this.renderGalleryItem(Image7, 'Item')}
+            {this.renderGalleryItem(Image8, 'Item')}
+            {this.renderGalleryItem(Image9, 'Item')}
           </div>
           <div className="row mb-4">
-            {this.renderGalleryItem(Image10)}
-            {this.renderGalleryItem(Image11)}
-            {this.renderGalleryItem(Image12)}
+            {this.renderGalleryItem(Image10, 'Item')}
+            {this.renderGalleryItem(Image11, 'Item')}
+            {this.renderGalleryItem(Image12, 'Item')}
           </div>
           <div className="row mb-4">
-            {this.renderGalleryItem(Image13)}
-            {this.renderGalleryItem(Image14)}
-            {this.renderGalleryItem(Image15)}
+            {this.renderGalleryItem(Image13, 'Item')}
+            {this.renderGalleryItem(Image14, 'Item')}
+            {this.renderGalleryItem(Image15, 'Item')}
           </div>
           <div className="row mb-4">
-            {this.renderGalleryItem(Image16)}
-            {this.renderGalleryItem(Image17)}
-            {this.renderGalleryItem(Image18)}
+            {this.renderGalleryItem(Image16, 'Item')}
+            {this.renderGalleryItem(Image17, 'Item')}
+            {this.renderGalleryItem(Image18, 'Item')}
           </div>
           <div className="row mb-4">
-            {this.renderGalleryItem(Image19)}
-            {this.renderGalleryItem(Image20)}
-            {this.renderGalleryItem(Image21)}
+            {this.renderGalleryItem(Image19, 'Item')}
+            {this.renderGalleryItem(Image20, 'Item')}
+            {this.renderGalleryItem(Image21, 'Item')}
           </div>
         </div>
       </section>

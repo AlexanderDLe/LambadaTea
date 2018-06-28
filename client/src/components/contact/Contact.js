@@ -130,8 +130,12 @@ class Contact extends Component {
               </Form>
             </div>
 
-            <div className="col-lg-3 align-self-center">
-              <img src={logo} alt="" className="img-fluid align-center" />
+            <div className="col-lg-3 align-self-center text-center">
+              <img
+                src={logo}
+                alt=""
+                className="contactLogo img-fluid align-center p-3"
+              />
             </div>
           </div>
         </div>
