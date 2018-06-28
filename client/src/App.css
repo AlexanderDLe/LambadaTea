@@ -21,19 +21,19 @@ p {
   width: 100px;
 }
 .carousel-image-1 {
-  background: url("img/LambadaLanding.jpg") no-repeat center;
+  background: url('img/LambadaLanding.webp') no-repeat center;
   background-size: cover;
 }
 .carousel-image-2 {
-  background: url("img/FriedChicken.jpg") no-repeat center;
+  background: url('img/FriedChicken.webp') no-repeat center;
   background-size: cover;
 }
 .carousel-image-3 {
-  background: url("img/Pho.jpg") no-repeat center;
+  background: url('img/Pho.webp') no-repeat center;
   background-size: cover;
 }
 .carousel-image-4 {
-  background: url("img/Eggrolls.jpg") no-repeat center;
+  background: url('img/Eggrolls.webp') no-repeat center;
   background-size: cover;
 }
 /* NAVBAR */
