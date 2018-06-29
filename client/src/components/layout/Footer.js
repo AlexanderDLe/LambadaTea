@@ -9,8 +9,8 @@ export default () => {
           <div className="storeHours col-md-6">
             <h4 className="py-3">Store Hours</h4>
             <p className="lead">Open Daily:</p>
-            <p className="lead">Mon - Sat: 8am - 11pm</p>
-            <p className="lead">Sunday: 8am - 10pm</p>
+            <p className="lead">Mon - Sat: 9am - 11pm</p>
+            <p className="lead">Sunday: 9am - 10pm</p>
           </div>
           <div className="col-md-6">
             <h4 className="py-3">Address</h4>

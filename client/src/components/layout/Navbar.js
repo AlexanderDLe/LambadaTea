@@ -1,10 +1,10 @@
-import React from "react";
-import logo from "../../img/LambadaNavLogo.png";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import React from 'react';
+import logo from '../../img/LambadaNavLogo.png';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 export default () => {
   return (
-    <nav className="navbar fixed-top navbar-expand-sm navbar-light bg-light mb-1">
+    <nav className="navbar fixed-top navbar-expand-sm navbar-light bg-white mb-1">
       <div className="container">
         <AnchorLink to="/" className="navbar-brand logo logoNav" href="#home">
           <img className="navbarLogo" src={logo} alt="" />

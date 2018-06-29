@@ -55,34 +55,34 @@ class Gallery extends Component {
             {this.renderGalleryItem(Image3, 'Item')}
           </div>
           <div className="row mb-4">
-            {this.renderGalleryItem(Image4, 'Item')}
-            {this.renderGalleryItem(Image5, 'Item')}
-            {this.renderGalleryItem(Image6, 'Item')}
+            {this.renderGalleryItem(Image4, 'Man-Go Crazy')}
+            {this.renderGalleryItem(Image5, 'Peachberry Tea')}
+            {this.renderGalleryItem(Image6, 'Mango Tango')}
           </div>
           <div className="row mb-4">
-            {this.renderGalleryItem(Image7, 'Item')}
-            {this.renderGalleryItem(Image8, 'Item')}
-            {this.renderGalleryItem(Image9, 'Item')}
+            {this.renderGalleryItem(Image7, 'Strawberry Wild')}
+            {this.renderGalleryItem(Image8, "Pistachio Luv'n")}
+            {this.renderGalleryItem(Image9, 'MMM-Mocha')}
           </div>
           <div className="row mb-4">
-            {this.renderGalleryItem(Image10, 'Item')}
-            {this.renderGalleryItem(Image11, 'Item')}
-            {this.renderGalleryItem(Image12, 'Item')}
+            {this.renderGalleryItem(Image10, 'Strawber-chee')}
+            {this.renderGalleryItem(Image11, 'Taro Milk Tea')}
+            {this.renderGalleryItem(Image12, 'Taro Temptation')}
           </div>
           <div className="row mb-4">
-            {this.renderGalleryItem(Image13, 'Item')}
-            {this.renderGalleryItem(Image14, 'Item')}
-            {this.renderGalleryItem(Image15, 'Item')}
+            {this.renderGalleryItem(Image13, 'Buttery Nut')}
+            {this.renderGalleryItem(Image14, 'Avocado Nut')}
+            {this.renderGalleryItem(Image15, 'Jasmine Milk Tea')}
           </div>
           <div className="row mb-4">
-            {this.renderGalleryItem(Image16, 'Item')}
-            {this.renderGalleryItem(Image17, 'Item')}
-            {this.renderGalleryItem(Image18, 'Item')}
+            {this.renderGalleryItem(Image16, 'Strawberry Suave')}
+            {this.renderGalleryItem(Image17, 'Frizzled Wings')}
+            {this.renderGalleryItem(Image18, 'Egg Rolls')}
           </div>
           <div className="row mb-4">
-            {this.renderGalleryItem(Image19, 'Item')}
-            {this.renderGalleryItem(Image20, 'Item')}
-            {this.renderGalleryItem(Image21, 'Item')}
+            {this.renderGalleryItem(Image19, 'Pho Satay Dac Biet (Dry)')}
+            {this.renderGalleryItem(Image20, 'Seasoned Fries')}
+            {this.renderGalleryItem(Image21, 'Pho Dac Biet')}
           </div>
         </div>
       </section>
