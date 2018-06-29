@@ -52,7 +52,7 @@ class Gallery extends Component {
           <div className="row mb-4">
             {this.renderGalleryItem(Image2, 'Enjoy our refreshing drinks!')}
             {this.renderGalleryItem(Image1, 'Welcome to Lambada!')}
-            {this.renderGalleryItem(Image3, 'Item')}
+            {this.renderGalleryItem(Image3, 'Fresh ingredients everyday!')}
           </div>
           <div className="row mb-4">
             {this.renderGalleryItem(Image4, 'Man-Go Crazy')}
