@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 const app = express();
+const key = require('./config/key');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -33,7 +34,7 @@ app.post('/', (req, res) => {
       secure: true,
       auth: {
         user: 'lambadaboba@gmail.com',
-        pass: 'lambadab0b4'
+        pass: key.pw
       }
     });
 

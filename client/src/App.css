@@ -148,6 +148,20 @@ footer {
   color: rgba(0, 0, 0, 0.8);
   font-weight: bold;
 }
+.icon {
+  height: auto;
+  width: 80px;
+  /* display: block; */
+}
+.icon2 {
+  height: auto;
+  width: 115px;
+  /* display: block; */
+}
+.footerIcons {
+  display: flex;
+  align-items: center;
+}
 
 /* CONTACT */
 .contactLogo {
