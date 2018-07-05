@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import logo from '../../img/LambadaNavLogo.png';
 import { Form, FormGroup, Input, Button } from 'reactstrap';
-// import { sendEmail } from '../../actions/emailAction';
-import { connect } from 'react-redux';
 import axios from 'axios';
 import classnames from 'classnames';
 
-class Contact extends Component {
+export default class Contact extends Component {
   constructor(props) {
     super(props);
 
@@ -19,12 +17,6 @@ class Contact extends Component {
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
-  }
-
-  componentWillReceiveProps(nextProps) {
-    if (nextProps.errors) {
-      this.setState({ errors: nextProps.errors });
-    }
   }
 
   handleChange = e => {
@@ -42,13 +34,6 @@ class Contact extends Component {
       .post('/', emailData)
       .then(() => console.log('Success'))
       .catch(err => this.setState({ errors: err.response.data }));
-    // this.sendEmail(emailData);
-
-    // this.setState({
-    //   name: '',
-    //   email: '',
-    //   message: ''
-    // });
   };
 
   render() {
@@ -143,9 +128,3 @@ class Contact extends Component {
     );
   }
 }
-
-const mapStateToProps = state => ({
-  errors: state.errors
-});
-
-export default connect(mapStateToProps)(Contact);

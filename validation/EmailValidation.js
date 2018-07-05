@@ -23,8 +23,8 @@ module.exports = function validateEmailInput(data) {
   if (Validator.isEmpty(data.email)) {
     errors.email = 'Email field is required';
   }
-  if (!Validator.isLength(data.message, { min: 5, max: 30 })) {
-    errors.message = 'Message must be between 5 and 30 characters';
+  if (!Validator.isLength(data.message, { min: 5, max: 999 })) {
+    errors.message = 'Message must be at least 5 characters';
   }
   if (Validator.isEmpty(data.message)) {
     errors.message = 'Message field is required';

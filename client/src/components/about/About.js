@@ -1,5 +1,5 @@
-import React from "react";
-import logo from "../../img/LambadaLogo.png";
+import React from 'react';
+import logo from '../../img/LambadaLogo.png';
 
 export default () => {
   return (
@@ -17,19 +17,29 @@ export default () => {
             <i className="fas fa-leaf" />
             <h1 className="Title">About Us</h1>
             <hr />
-            <p className="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id
-              ratione perferendis quisquam non! Iure, officia qui illo inventore
-              corporis sequi.
+            <p className="lead aboutText">
+              We were two boba enthusiasts who were tired of typical drinks made
+              from pure powder and syrup, so we decided to turn these standard
+              drinks into more quality by using real fruits and actual roots.
+              <br />
+              <br />
+              After understanding the importance of time and patience put into
+              every cup, we decided that we wanted to share these delicious
+              drinks with everyone else!
             </p>
           </div>
           <div className="col-md-6 aboutSection">
             <i className="fas fa-utensils" />
             <h1 className="Title">Fresh</h1>
             <hr />
-            <p className="lead">
-              Our drinks are made from fresh fruits and roots hand cut and
-              cooked daily. Visit us and satisfy your taste buds.
+            <p className="lead aboutText">
+              We believe great taste starts with fresh ingredients, and that's
+              exactly what we offer. Whether it's the drinks or the food that we
+              serve, we guarantee we'll satisfy your taste buds.
+              <br />
+              <br />
+              All of our teas are slow brewed with quality tea leaves and made
+              to order. Come try any of our drinks and notice our quality!
             </p>
           </div>
         </div>

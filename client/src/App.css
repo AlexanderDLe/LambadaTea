@@ -95,13 +95,9 @@ p {
   font-size: 2.5rem;
   font-family: Satisfy;
 }
-/* .fa-leaf,
-.fa-utensils,
-.fa-pencil-alt,
-.fa-envelope,
-.fa-user {
-  color: #4b7c07;
-} */
+.aboutText {
+  text-align: left;
+}
 .fa-leaf,
 .fa-utensils {
   color: #4b7c07;
