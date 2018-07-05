@@ -37,7 +37,7 @@ export default () => {
             <p className="lead aboutText">
               We believe great taste starts with fresh ingredients and that's
               exactly what we offer. All of our teas are slow brewed with
-              quality tea leaves and made to order.
+              hand-picked quality tea leaves and made to order.
               <br />
               <br />
               Whether it's the refreshing drinks or the savory food that we
