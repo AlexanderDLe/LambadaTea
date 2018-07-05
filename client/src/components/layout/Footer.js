@@ -50,7 +50,10 @@ export default () => {
         </div>
       </div>
       <div className="">
-        <p className="text-white text-center bg-secondary py-5 mt-5">
+        <p className="footerText text-white text-center bg-secondary py-5 mt-5">
+          <i className="fas fa-phone" /> (714) 263-0134
+          <br />
+          <br />
           &copy; Lambada Tea & Frizzle Inc. All Rights Reserved
         </p>
       </div>
