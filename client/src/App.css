@@ -138,7 +138,7 @@ p {
   background-color: rgba(0, 0, 0, 0.55);
   font-size: 1.2rem;
   padding: 8px;
-  transform: translateY(100px);
+  transform: translateY(125%);
   transition: transform 1s ease-in-out;
 }
 .imgBox:hover .imgName {
