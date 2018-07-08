@@ -54,7 +54,7 @@ export default () => {
           <i className="fas fa-phone" /> (714) 263-0134
           <br />
           <br />
-          &copy; Lambada Tea & Frizzle Inc. All Rights Reserved
+          &copy; Lambada Tea & Frizzle Inc. <br /> All Rights Reserved
         </p>
       </div>
     </footer>
