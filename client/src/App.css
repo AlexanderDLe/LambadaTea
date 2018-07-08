@@ -44,7 +44,7 @@ p {
 }
 .nav-item {
   padding-right: 15px;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 .navbarLogo {
   height: auto;
@@ -94,11 +94,12 @@ p {
   min-height: 50vh;
 }
 .Title {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-family: Satisfy;
 }
 .aboutText {
   text-align: left;
+  font-size: 1.4rem;
 }
 .fa-leaf,
 .fa-utensils {
@@ -106,12 +107,12 @@ p {
 }
 .fa-leaf,
 .fa-utensils {
-  font-size: 60px;
+  font-size: 4rem;
   margin-bottom: 40px;
   margin-top: 40px;
 }
 .aboutSection p {
-  padding: 5px 25px;
+  padding: 5px 10px;
 }
 @media (max-width: 767px) {
   .fa-utensils {

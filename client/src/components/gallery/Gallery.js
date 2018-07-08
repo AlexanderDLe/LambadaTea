@@ -24,7 +24,7 @@ import Image21 from '../../img/Gallery/P21_result.webp';
 class Gallery extends Component {
   renderGalleryItem(img, name) {
     return (
-      <div className="col-md-4 box">
+      <div className="col-lg-4 box">
         <div className="imgBox">
           <a
             href={img}

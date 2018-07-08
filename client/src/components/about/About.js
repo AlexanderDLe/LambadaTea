@@ -13,7 +13,7 @@ export default () => {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-md-6 aboutSection">
+          <div className="col-lg-6 aboutSection">
             <i className="fas fa-leaf" />
             <h1 className="Title">About Us</h1>
             <hr />
@@ -30,7 +30,7 @@ export default () => {
               beverages!
             </p>
           </div>
-          <div className="col-md-6 aboutSection">
+          <div className="col-lg-6 aboutSection">
             <i className="fas fa-utensils" />
             <h1 className="Title">Fresh</h1>
             <hr />
