@@ -45,7 +45,7 @@ class Gallery extends Component {
     return (
       <section id="gallery" className="py-5">
         <div className="container">
-          <h1 className="text-center Title">Gallery</h1>
+          <h1 className="text-center Title">Gallery Test</h1>
           <hr />
           <br />
           <br />
