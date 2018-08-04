@@ -1,25 +1,25 @@
 import React, { Component } from 'react';
-import Image1 from '../../img/Gallery/P1_result.webp';
-import Image2 from '../../img/Gallery/P2_result.webp';
-import Image3 from '../../img/Gallery/P3_result.webp';
-import Image4 from '../../img/Gallery/P4_result.webp';
-import Image5 from '../../img/Gallery/P5_result.webp';
-import Image6 from '../../img/Gallery/P6_result.webp';
-import Image7 from '../../img/Gallery/P7_result.webp';
-import Image8 from '../../img/Gallery/P8_result.webp';
-import Image9 from '../../img/Gallery/P9_result.webp';
-import Image10 from '../../img/Gallery/P10_result.webp';
-import Image11 from '../../img/Gallery/P11_result.webp';
-import Image12 from '../../img/Gallery/P12_result.webp';
-import Image13 from '../../img/Gallery/P13_result.webp';
-import Image14 from '../../img/Gallery/P14_result.webp';
-import Image15 from '../../img/Gallery/P15_result.webp';
-import Image16 from '../../img/Gallery/P16_result.webp';
-import Image17 from '../../img/Gallery/P17_result.webp';
-import Image18 from '../../img/Gallery/P18_result.webp';
-import Image19 from '../../img/Gallery/P19_result.webp';
-import Image20 from '../../img/Gallery/P20_result.webp';
-import Image21 from '../../img/Gallery/P21_result.webp';
+import Image1 from '../../img/Gallery/P1_result.jpg';
+import Image2 from '../../img/Gallery/P2_result.jpg';
+import Image3 from '../../img/Gallery/P3_result.jpg';
+import Image4 from '../../img/Gallery/P4_result.jpg';
+import Image5 from '../../img/Gallery/P5_result.jpg';
+import Image6 from '../../img/Gallery/P6_result.jpg';
+import Image7 from '../../img/Gallery/P7_result.jpg';
+import Image8 from '../../img/Gallery/P8_result.jpg';
+import Image9 from '../../img/Gallery/P9_result.jpg';
+import Image10 from '../../img/Gallery/P10_result.jpg';
+import Image11 from '../../img/Gallery/P11_result.jpg';
+import Image12 from '../../img/Gallery/P12_result.jpg';
+import Image13 from '../../img/Gallery/P13_result.jpg';
+import Image14 from '../../img/Gallery/P14_result.jpg';
+import Image15 from '../../img/Gallery/P15_result.jpg';
+import Image16 from '../../img/Gallery/P16_result.jpg';
+import Image17 from '../../img/Gallery/P17_result.jpg';
+import Image18 from '../../img/Gallery/P18_result.jpg';
+import Image19 from '../../img/Gallery/P19_result.jpg';
+import Image20 from '../../img/Gallery/P20_result.jpg';
+import Image21 from '../../img/Gallery/P21_result.jpg';
 
 class Gallery extends Component {
   renderGalleryItem(img, name) {
