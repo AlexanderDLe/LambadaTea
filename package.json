@@ -1,24 +1,25 @@
 {
-  "name": "lambadaboba",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "server": "nodemon index.js",
-    "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "concurrently": "^3.5.1",
-    "express": "^4.16.3",
-    "nodemailer": "^4.6.7",
-    "nodemon": "^1.17.5",
-    "validator": "^10.3.0"
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "react": "^16.4.1",
+    "react-anchor-link-smooth-scroll": "^1.0.10",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "reactstrap": "^6.1.0",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }

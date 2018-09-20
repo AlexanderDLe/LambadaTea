@@ -1,0 +1,195 @@
+p {
+  margin-bottom: 0;
+}
+/* LANDING */
+.Landing {
+  width: 100%;
+  position: relative;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+/* CAROUSEL */
+.carousel-item {
+  height: 100vh;
+}
+.carousel-control {
+  font-size: 300px;
+  width: 100px;
+}
+.carousel-image-1 {
+  background: url('img/LambadaLanding.webp') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.carousel-image-2 {
+  background: url('img/FriedChicken.webp') no-repeat center;
+  background-size: cover;
+}
+.carousel-image-3 {
+  background: url('img/Pho.webp') no-repeat center;
+  background-size: cover;
+}
+.carousel-image-4 {
+  background: url('img/Eggrolls.webp') no-repeat center;
+  background-size: cover;
+}
+/* NAVBAR */
+.navbar {
+  box-shadow: 0px -5px 10px black;
+}
+.nav-item {
+  padding-right: 15px;
+  font-size: 1.3rem;
+}
+.navbarLogo {
+  height: auto;
+  width: 115px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.6);
+}
+/* LEARN MORE BUTTON */
+.largeArrow {
+  font-size: 6rem;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
+}
+.largeArrow:hover {
+  font-size: 6.5rem;
+  transition: all 0.15 ease-in-out;
+}
+/* LOGO */
+.logo {
+  font-family: Great Vibes;
+}
+.logoNav {
+  font-size: 2rem;
+}
+@media (min-width: 625px) {
+  .logoLanding {
+    font-size: 10rem;
+  }
+}
+@media (min-width: 925px) {
+  .logoLanding {
+    font-size: 12rem;
+  }
+}
+
+/* ABOUT */
+.aboutLogo {
+  height: auto;
+  width: 280px;
+}
+.About {
+  min-height: 50vh;
+}
+.Title {
+  font-size: 2.8rem;
+  font-family: Satisfy;
+}
+.aboutText {
+  text-align: left;
+}
+.fa-leaf,
+.fa-utensils {
+  color: #4b7c07;
+}
+.fa-leaf,
+.fa-utensils {
+  font-size: 4rem;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.aboutSection p {
+  padding: 5px 10px;
+}
+@media (max-width: 767px) {
+  .fa-utensils {
+    margin-top: 50px;
+  }
+}
+/* GALLERY */
+
+.imgBox {
+  position: relative;
+  overflow: hidden;
+}
+.imgBox img {
+  transition: transform 1s ease-in-out;
+}
+.imgBox:hover img {
+  transform: scale(1.2);
+}
+.imgName {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.55);
+  font-size: 1.2rem;
+  padding: 8px;
+  transform: translateY(125%);
+  transition: transform 1s ease-in-out;
+}
+.imgBox:hover .imgName {
+  transform: translateY(0px);
+  transition: transform 1s ease-in-out;
+}
+/* FOOTER */
+footer {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+}
+.icon {
+  height: auto;
+  width: 70px;
+  /* display: block; */
+}
+.icon2 {
+  height: auto;
+  width: 100px;
+  /* display: block; */
+}
+.footerIcons {
+  display: flex;
+  align-items: center;
+}
+.footerText {
+  font-family: Raleway;
+  letter-spacing: 1px;
+}
+
+/* CONTACT */
+.contactLogo {
+  height: auto;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 50px;
+  object-fit: contain;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1280px;
+  }
+}
