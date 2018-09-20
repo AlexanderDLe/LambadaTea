@@ -3,7 +3,7 @@ import logo from '../../img/LambadaLogo.png';
 
 export default () => {
   return (
-    <div id="about" className="About pt-3 pb-5 center">
+    <div id="about" className="About pt-5 pb-5 center">
       <div className="container">
         <div className="row">
           <div className="col-md-12">
@@ -16,7 +16,7 @@ export default () => {
           <div className="col-lg-6 aboutSection">
             <i className="fas fa-leaf" />
             <h1 className="Title">About Us</h1>
-            <hr />
+            <hr className="short-hr" />
             <p className="lead aboutText">
               We were two boba enthusiasts who were tired of the typical drinks
               made from powder and syrup, so we decided to turn these standard
@@ -33,7 +33,7 @@ export default () => {
           <div className="col-lg-6 aboutSection">
             <i className="fas fa-utensils" />
             <h1 className="Title">Fresh</h1>
-            <hr />
+            <hr className="short-hr" />
             <p className="lead aboutText">
               We believe great taste starts with fresh ingredients and that's
               exactly what we offer. All of our teas are slow brewed with

@@ -1,6 +1,9 @@
 p {
   margin-bottom: 0;
 }
+.short-hr {
+  width: 150px;
+}
 /* LANDING */
 .Landing {
   width: 100%;
@@ -21,30 +24,31 @@ p {
   width: 100px;
 }
 .carousel-image-1 {
-  background: url('img/LambadaLanding.webp') no-repeat center;
+  background: url('img/LambadaLanding.jpg') no-repeat center;
   background-size: cover;
   height: 100vh;
   width: 100%;
 }
 .carousel-image-2 {
-  background: url('img/FriedChicken.webp') no-repeat center;
+  background: url('img/FriedChicken.jpg') no-repeat center;
   background-size: cover;
 }
 .carousel-image-3 {
-  background: url('img/Pho.webp') no-repeat center;
+  background: url('img/Pho.jpg') no-repeat center;
   background-size: cover;
 }
 .carousel-image-4 {
-  background: url('img/Eggrolls.webp') no-repeat center;
+  background: url('img/Eggrolls.jpg') no-repeat center;
   background-size: cover;
 }
 /* NAVBAR */
 .navbar {
   box-shadow: 0px -5px 10px black;
+  padding: 0;
 }
 .nav-item {
   padding-right: 15px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .navbarLogo {
   height: auto;
@@ -101,11 +105,13 @@ p {
   text-align: left;
 }
 .fa-leaf,
-.fa-utensils {
+.fa-utensils,
+.fa-envelope {
   color: #4b7c07;
 }
 .fa-leaf,
-.fa-utensils {
+.fa-utensils,
+.fa-envelope {
   font-size: 4rem;
   margin-bottom: 40px;
   margin-top: 40px;
