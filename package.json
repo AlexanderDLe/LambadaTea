@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "http://alexanderdle.github.io/LambadaTea/",
   "dependencies": {
-    "axios": "^0.18.0",
     "classnames": "^2.2.6",
     "gh-pages": "^2.0.0",
     "react": "^16.4.1",
