@@ -36,7 +36,7 @@ Gallery React Code:
 
 ![lambada gallery react code](https://user-images.githubusercontent.com/37781362/46241510-d6f58180-c36f-11e8-8805-5b89172817e1.png)
 
-In this approach to rendering a multitude of similar items, I experimented by using a method to render gallery items instead of the usual React method of using Components.
+In this approach to rendering a multitude of similar items, I experimented by using a method to render gallery items instead of the usual React method of using reusable components.
 
 In the above portion, I create a method that receives two arguments that will define each individual item. There is also a jQuery addition that allows the user to toggle a modal upon clicking on an item.
 
