@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://alexanderdle.github.io/LambadaTea/",
+  "homepage": "https://lambadaboba.github.io/",
   "dependencies": {
     "classnames": "^2.2.6",
     "gh-pages": "^2.0.0",
