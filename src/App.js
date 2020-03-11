@@ -1,29 +1,26 @@
+import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import React, { Component } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
 
-import Navbar from './components/layout/Navbar';
-import Landing from './components/layout/Landing';
-import About from './components/about/About';
-import Footer from './components/layout/Footer';
-import Gallery from './components/gallery/Gallery';
-import Contact from './components/contact/Contact';
-
-class App extends Component {
-  render() {
-    return (
-      <Router basename={process.env.PUBLIC_URL}>
-        <div className="App">
-          <Navbar />
-          <Landing />
-          <About />
-          <Gallery />
-          <Contact />
-          <Footer />
-        </div>
-      </Router>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
 
 export default App;

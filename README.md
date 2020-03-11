@@ -1,52 +1,68 @@
-# Lambada Site
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![lambada site](https://user-images.githubusercontent.com/37781362/46241409-56825100-c36e-11e8-95e9-15390e1251bb.png)
+## Available Scripts
 
-Current Build: http://lambadatea.gq/
+In the project directory, you can run:
 
-### Build Tools:
+### `npm start`
 
-- HTML/CSS/JavaScript
-- Bootstrap 4
-- React
-- Reactstrap for bootstrap integration within React
-- React-anchor-link-smooth-scroll for smooth navigation scrolls.
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-# Features:
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## Sliding Carousel
+### `npm test`
 
-![lambada carousel slider](https://user-images.githubusercontent.com/37781362/46241581-cb568a80-c370-11e8-92a4-6cd03183ea0c.PNG)
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-This site features a landing page that contains a carousel slider.
+### `npm run build`
 
-Carousel React Code:
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-![lambada carousel code snippet](https://user-images.githubusercontent.com/37781362/46241592-022ca080-c371-11e8-9ea3-9e90c1f0550b.PNG)
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-In the code snippet above, I utilize Bootstrap 4 to implement the carousel.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Menu Gallery
+### `npm run eject`
 
-![lambada gallery menu](https://user-images.githubusercontent.com/37781362/46241452-11aaea00-c36f-11e8-8dc3-6b9c976e24ab.PNG)
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-This site features a gallery showcasing the restaurant's menu.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Gallery React Code:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-![lambada gallery react code](https://user-images.githubusercontent.com/37781362/46241510-d6f58180-c36f-11e8-8805-5b89172817e1.png)
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-In this approach to rendering a multitude of similar items, I experimented by using a method (renderGalleryItem) to render gallery items instead of the usual React method of using reusable components.
+## Learn More
 
-In the above portion, I create a method that receives two arguments that will define each individual item. There is also a jQuery addition that allows the user to toggle a modal upon clicking on an item.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-In the render() method, I call the renderGalleryItem multiple times, each with different arguments corresponding to the menu items belonging to the restaurant.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Development Notes:
+### Code Splitting
 
-- Originally a contact page was created containing a contact form. This required a back-end that required a backend that utilized tools
-  such as Node, Express, MongoDB, Nodemailer, etc. However, uploading an application that utilizes a back end system such as this on a
-  platform such as Heroku requires a monthly fee (there is a free slower alternative, however, the artist decided against it). The Artist chose instead to forego the contact form and instead host the now backend-less
-  website on Github Pages for free.
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-- I am a huge fan of using SASS/SCSS - however, I encountered an issue when trying to combine it with my use of React. There is an official work-around utlizing SASS-Chokidar, however, it did not work for me thus I chose to use plain CSS in my React projects. Although I really miss the efficient import feature of SCSS (Vanilla CSS has an import feature but it is not as efficient since it makes several requests), CSS still offers the ability to assign variables so it's not too bad. That said, I plan on trying SCSS with React again in the future.
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
