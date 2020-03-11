@@ -1,8 +1,8 @@
-# VVN Site github repository.
+# Lambada Site
 
-![screenshot](https://user-images.githubusercontent.com/37781362/45939434-74733e80-bf87-11e8-9d92-5f4ffa399296.PNG)
+![lambada site](https://user-images.githubusercontent.com/37781362/46241409-56825100-c36e-11e8-95e9-15390e1251bb.png)
 
-You can view the site, but it is undergoing migration: http://vvnzquan.com.s3-website-us-west-1.amazonaws.com/
+Current Build: http://lambadatea.gq/
 
 ### Build Tools:
 
@@ -10,41 +10,32 @@ You can view the site, but it is undergoing migration: http://vvnzquan.com.s3-we
 -   Bootstrap 4
 -   React
 -   Reactstrap for bootstrap integration within React
+-   React-anchor-link-smooth-scroll for smooth navigation scrolls.
 
 # Features:
 
-## Full Musical Catalogue
+## Sliding Carousel
 
-![music catalogue](https://user-images.githubusercontent.com/37781362/46181569-869cf780-c27b-11e8-904d-f7c4dee2a5a4.PNG)
+![lambada carousel slider](https://user-images.githubusercontent.com/37781362/46241581-cb568a80-c370-11e8-92a4-6cd03183ea0c.PNG)
 
-This site features the artist's music via embedded soundcloud playlists.
+This site features a landing page that contains a carousel slider.
 
-The code was easily implemented and offered by Soundcloud sharing.
+Carousel React Code:
 
-Code:
+![lambada carousel code snippet](https://user-images.githubusercontent.com/37781362/46241592-022ca080-c371-11e8-9ea3-9e90c1f0550b.PNG)
 
-![music code](https://user-images.githubusercontent.com/37781362/46181715-45591780-c27c-11e8-90cb-1945138153b6.PNG)
+In the code snippet above, I utilize Bootstrap 4 to implement the carousel.
 
-## Stream/Download Hub Page
+## Menu Gallery
 
-![streams](https://user-images.githubusercontent.com/37781362/46181632-d5e32800-c27b-11e8-9df0-ef4697d702e7.PNG)
+![lambada gallery menu](https://user-images.githubusercontent.com/37781362/46241452-11aaea00-c36f-11e8-8dc3-6b9c976e24ab.PNG)
 
-This page contains all available streams/download conveniently located in a single page. All links bring the user to the expected destination.
+This site features a gallery showcasing the restaurant's menu.
 
-Code:
+Gallery React Code:
 
-![stream code](https://user-images.githubusercontent.com/37781362/46185094-65dd9d80-c28d-11e8-89f3-84bf0584def4.PNG)
+![lambada gallery react code](https://user-images.githubusercontent.com/37781362/46241510-d6f58180-c36f-11e8-8805-5b89172817e1.png)
 
-The code snippet is fairly straighforward with basic HTML and CSS. CSS Grid is used to organize the build and transitions are used to give user feedback on hover.
+In this approach to rendering a multitude of similar items, I experimented by using a method (renderGalleryItem) to render gallery items instead of the usual React method of using reusable components.
 
-## Services Page
-
-![services](https://user-images.githubusercontent.com/37781362/46181974-c8c73880-c27d-11e8-8aa0-971f257c07a1.PNG)
-
-The services page features an accordian that divides the different services that VVN offers.
-
-Code Snippet:
-
-![services code](https://user-images.githubusercontent.com/37781362/46182137-df21c400-c27e-11e8-98f8-6cb27ec95293.PNG)
-
-The code was implement with the help of Bootstrap. Boostrap is quick, easy, and still allows for customization.
+In the render() method, I call the renderGalleryItem multiple times, each with different arguments corresponding to the menu items belonging to the restaurant.
