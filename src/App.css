@@ -1,6 +1,14 @@
 p {
     margin-bottom: 0;
 }
+.lead {
+    font-size: 1.15rem;
+}
+@media (max-width: 767px) {
+    .lead {
+        font-size: 1rem;
+    }
+}
 .short-hr {
     width: 150px;
 }
@@ -48,14 +56,18 @@ p {
 }
 .nav-item {
     padding-right: 15px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .navbarLogo {
     height: auto;
-    width: 115px;
+    width: 90px;
 }
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0, 0, 0, 0.6);
+}
+.navbar-toggler {
+    font-size: 1rem;
+    margin-right: 10px;
 }
 /* LEARN MORE BUTTON */
 .largeArrow {
@@ -171,6 +183,7 @@ footer {
     align-items: center;
 }
 .footerText {
+    font-size: 0.9rem;
     font-family: Raleway;
     letter-spacing: 1px;
 }
