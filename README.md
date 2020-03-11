@@ -2,7 +2,7 @@
 
 ![lambada site](https://user-images.githubusercontent.com/37781362/46241409-56825100-c36e-11e8-95e9-15390e1251bb.png)
 
-Current Build: http://lambadatea.gq/
+Current Build: lambadatea.com
 
 ### Build Tools:
 
