@@ -10,16 +10,20 @@ export default () => {
             <div className="container">
                 <div className="row">
                     <div className="storeHours col-md-4">
-                        <h4 className="py-2">Store Hours</h4>
-                        <p className="lead">Open Daily:</p>
-                        <p className="lead">Mon - Sat: 9am - 11pm</p>
-                        <p className="lead">Sunday: 9am - 10pm</p>
+                        <h5 className="py-2">Store Hours</h5>
+                        <p className="footer-detail lead">Open Daily:</p>
+                        <p className="footer-detail lead">
+                            Mon - Sat: 9am - 11pm
+                        </p>
+                        <p className="footer-detail lead">Sunday: 9am - 10pm</p>
                     </div>
-                    <div className="col-md-4">
-                        <h4 className="py-2">Address</h4>
-                        <p className="lead">10563 Bolsa Ave.</p>
-                        <p className="lead">Garden Grove, CA 92843</p>
-                        <p className="lead">United States</p>
+                    <div className="address col-md-4">
+                        <h5 className="py-2">Address</h5>
+                        <p className="footer-detail lead">10563 Bolsa Ave.</p>
+                        <p className="footer-detail lead">
+                            Garden Grove, CA 92843
+                        </p>
+                        <p className="footer-detail lead">United States</p>
                     </div>
                     <div className="col-md-4 footerIcons">
                         <a
